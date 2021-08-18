@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+
+/* ESTILOS GERAIS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container-conteudo {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-conteudo h2,
+.container-conteudo h3 {
+  margin: 0;
+}
+
+/* ========== TOP ======== */
+
+.topo {
+  background-color: #00cad1;
+  width: 100%;
+}
+
+.topo .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+  padding: 0 10px;
+}
+
+.titulo-titulo {
+  font-weight: 600;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-topo a {
+  display: flex;
+}
+
+.topo-logo {
+  height: 70px;
+}
+
+.links-topo {
+  display: flex;
+}
+.links-topo a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+
+.links-topo a:hover {
+  color: #24868a;
+  transform: scale(1.2);
+}
+
+/* ============ FIM CSS TOP ============== */
+
+#sobre,
+#especialidades,
+#contato {
+  padding: 40px 20px 0;
+}
+
+.box-visao-geral {
+  position: relative;
+  background-image: url("../assets/assets/recepcao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.box-visao-geral-titulo {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.box-visao-geral h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 0;
+  color: white;
+  transition: 0.3s;
+}
+.box-visao-geral h1:hover {
+  margin-left: 20px;
+  color: white;
+}
+
+.box-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-sobre h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.box-sobre img {
+  height: 250px;
+}
+
+.box-especialidades {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-especialidade {
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgb(000/50%);
+  margin: 20px;
+  width: calc(100% /4 - 40px);
+}
+
+.box-especialidade img{
+    width: 100%;
+}
+
+.box-especialidade figcaption{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.box-link-horarios{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-horarios{
+    background-color: #00cad1;
+    color: white ;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.link-horarios:hover{
+    background-color: #29bbc0;
+    transform: scale(0.9);
+}
+
+.container-rota{
+    display: flex;
+    justify-content: center;
+}
+
+/* ===============INICIO FOOTER =========== */
+
+footer {
+  background-color: #0d6e71;
+  color: white;
+  padding: 20px;
+}
+
+footer .container {
+  text-align: center;
+}
+footer .container img {
+  height: 90px;
+}
+
+/* ========== FIM FOOTER =================== */
