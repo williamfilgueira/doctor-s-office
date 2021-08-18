@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+
+main{
+    color: rgb(87, 82, 82);
+}
+
+.box-especialista{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-titulo{
+    padding: 0 20px;
+}
+
+.conteiner-links-especialidades{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.links-especialidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.links-especialidades a{
+    text-decoration: none;
+    margin: 0 10px 10px;
+    transition: 0.4s;
+    color: rgb(87, 82, 82);
+}
+.links-especialidades a:hover{
+    transform: scale(1.1);
+    color:#00cad1 ;
+}
+
+.box-tabela-especialista{
+    display: flex;
+    height: 250px;
+    padding: 0 20px;
+}
+.box-tabela-especialista img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tabela-horarios{
+    border-spacing: 0;
+    text-align: center;
+    width: 70%;
+    height: 100%;
+}
+.tabela-horarios th{
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background: #bcf3f5;
+}
+
+.tabela-horarios td{
+    background: rgba(231, 228, 228, 0.685);
+    border-bottom: 1px solid white;
+}
+
+
